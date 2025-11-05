@@ -1,0 +1,156 @@
+html{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+header:hover{
+    background-color: rgba(0, 0, 0,0.2);
+}
+
+header a{
+    color: white;
+}
+
+header nav a:hover, footer{
+    color: black;
+    background: linear-gradient(
+        rgba(188,62,255,1),
+        rgba(102,110,255,1),
+        rgba(82,226,140,1), 
+        rgba(249,255,123,1), 
+        rgba(255,191,77,1), 
+        rgba(255,80,80,1));
+}
+
+#intro{
+    background-image: url(../img/urban.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+h1, #intro p {
+    text-shadow: 7px 7px 7px black;
+}
+h1 span:nth-child(1) {
+    color: rgba(102,110,255,1);
+}
+
+h1 span:nth-child(2){
+    color: rgba(82,226,140,1);
+}
+
+h1 span:nth-child(3){
+    color: rgba(249,255,123,1);
+}
+
+h1 span:nth-child(4){
+    color:rgba(255,191,77,1);
+}
+
+h1 span:nth-child(5){
+    color: rgba(255,80,80,1);
+}
+
+#team{
+    background-color: black;
+    color: white;
+}
+
+#team h2{
+    opacity: 70%;
+}
+
+#team .photographer figure{
+    background: linear-gradient(
+        rgba(188,62,255,1),
+        rgba(102,110,255,1),
+        rgba(82,226,140,1), 
+        rgba(249,255,123,1), 
+        rgba(255,191,77,1), 
+        rgba(255,80,80,1));
+}
+
+#team .photographer:hover img{
+    mix-blend-mode: luminosity;
+}
+#team a[title="Voir le portfolio"]{
+    color: white;
+    border: 1px #313131 solid;
+    background-color: black;
+}
+#team a[title="Voir le portfolio"]:hover{
+    border-color: white;
+}
+
+#portraits .img-wrapper{
+    background-image: url(../img/portrait.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: left top;
+    background-color: white;
+    background-origin: content-box;
+}
+
+.button.button-white{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+.button.button-white:hover{
+    background-color: black;
+    color: white;
+}
+
+#outdoor .img-wrapper{
+    background-image: url(../img/outdoor.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: right center;
+    background-color: white;
+    background-origin: content-box;
+
+}
+
+#outdoor .wrapper{
+    background-color: black;
+    color: white;
+}
+
+.button.button-black{
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
+
+.button.button-black:hover{
+    background-color: white;
+    color: black;
+}
+
+#contact .img-wrapper{
+    background-image: url(../img/contact.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: left center;
+    background-color: black;
+    background-origin: content-box;
+}
+
+#contact .wrapper{
+    background-color: white;
+    color: black;
+}
+
+#contact .button.button.button-white:hover{
+    box-shadow: 2px 2px 5px black;
+}
+
+#contact .field{
+    border: 1px solid white;
+    box-shadow:  inset 0px 2px 5px rgba(0,0,0,0.3);
+}
+
