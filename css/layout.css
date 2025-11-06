@@ -24,7 +24,11 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    transition: background-color ease-in-out 2s;
+    transition: background-color ease-in-out .4s;
+}
+
+header .logo{
+    width: 30%;
 }
 header .logo img {
     height: auto;
